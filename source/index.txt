@@ -2,8 +2,6 @@
 Debian Packaging Guidelines
 ===========================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
@@ -17,11 +15,6 @@ Contents:
    debian-watch
    lintian-overrides
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
 .. vim:ft=rst ts=3 sw=3 et

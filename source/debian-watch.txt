@@ -1,0 +1,9 @@
+debian/watch
+============
+Double-check if it works.
+
+Never use things like ``debian uupdate``.
+
+.. todo:: Provide rationale for the above.
+
+.. vim:ft=rst ts=3 sw=3 et

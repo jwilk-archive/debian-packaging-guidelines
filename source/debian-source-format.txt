@@ -1,0 +1,13 @@
+debian/source/format
+====================
+
+Non-native packages
+-------------------
+I strongly prefer ``3.0 (quilt)`` over ``1.0``, but the latter is okay, too
+(especially when there are no patches).
+
+Native packages
+---------------
+I prefer ``3.0 (native)`` over ``1.0``, but the latter is okay, too.
+
+.. vim:ft=rst ts=3 sw=3 et

@@ -1,0 +1,31 @@
+debian/changelog
+================
+
+New packages
+------------
+There should be exactly one changelog entry.
+
+.. todo:: Provide rationale for the above.
+
+Changelog should close ITP bug. Double-check if the bug number is correct.
+
+Get rid of boilerplate like ``<423737 is the bug number of your ITP>`` or
+``source package automatically created by stdeb``.
+
+.. todo:: Does this happen often enough to be worth mentioning? I think I've
+          seen this only 2 times so far.
+
+There normally should be only one changelog item saying something like
+``Initial release (closes: #423737)``. However, if you introduced patches in
+the initial release, it's worth documenting them, too.
+
+Do not document changes that you made to packaging e.g. between first upload to
+mentors and the actual upload to the archive.
+
+.. todo:: Provie rationale for the above.
+
+Existing packages
+-----------------
+.. todo::
+
+.. vim:ft=rst ts=3 sw=3 et

@@ -1,0 +1,14 @@
+debian/compat
+=============
+
+New packages
+------------
+There should be no reason to use anything older than 7.
+
+I prefer 7 for better backportability, but anything newer is okay, too.
+
+Bumping compat
+--------------
+.. todo:: 
+
+.. vim:ft=rst ts=3 sw=3 et

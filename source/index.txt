@@ -1,0 +1,27 @@
+====================
+Packaging Guidelines
+====================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   debian-control
+   debian-rules
+   debian-copyright
+   debian-changelog
+   debian-source-format
+   debian-patches
+   debian-compat
+   debian-watch
+   lintian-overrides
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+.. vim:ft=rst ts=3 sw=3 et

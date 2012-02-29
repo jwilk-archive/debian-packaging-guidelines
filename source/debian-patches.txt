@@ -1,0 +1,10 @@
+debian/patches/*
+================
+Do not use patches to remove files. Remove them using e.g. ``rm`` in
+``debian/rules``.
+
+If the patch is marked as forwarded, then it should be clear who/where the
+patch was forwarded to. That is, ``Forwarded: yes`` should not be used without
+the ``Bug`` field.
+
+.. vim:ft=rst ts=3 sw=3 et

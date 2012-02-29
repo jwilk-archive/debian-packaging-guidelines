@@ -1,0 +1,56 @@
+debian/control
+==============
+
+Package name
+------------
+You should normally use the same name as upstream uses, unless the name is too
+generic.
+
+For Python modules, binary package name should follow Python Policy §2.2.
+
+Priority
+--------
+Priority should normally be ``optional``.
+
+Build-Depends(-Indep)
+---------------------
+You must build-depend on all packages you directly use at build time (with the
+exception that packages used only in ``binary-indep`` can go to
+``Build-Depends-Indep``). Don't forget about the ``clean`` target.
+
+For better backportability, use ``debhelper (>= N)`` instead of ``debhelper (>=
+N.0.0)``.
+
+.. todo:: Write more about backportability (e.g. tildes in version numbers).
+
+URLs (Vcs-\*, Homepage)
+-----------------------
+Double-check if they are correct.
+
+``Vcs-Browser`` should exist even if it would be equal to ``Vcs-$VCS``.
+
+Depends
+-------
+.. todo::
+
+Breaks
+------
+Do not use ``${python:Breaks}``.
+
+Provides
+--------
+Do not use ``${python:Provides}`` unless you know what you are doing.
+
+.. todo:: Provide rationale for the above.
+
+Description
+-----------
+See Developer's Reference §6.2.3.
+
+Cosmetics
+---------
+Preferred capitalization of field names is ``Foo-Bar`` (not: ``Foo-bar``).
+
+Put a single space after ``,``,  before ``(``, and after ``>=``, ``<<`` etc.
+
+.. vim:ft=rst ts=3 sw=3 et

@@ -1,0 +1,7 @@
+debian/copyright
+================
+The copyright file must mention where the software was downloaded from.
+
+I slightly prefer DEP-5 format, but free-form text is okay, too. 
+
+.. vim:ft=rst ts=3 sw=3 et

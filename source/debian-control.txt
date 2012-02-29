@@ -44,9 +44,9 @@ Do not use ``${python:Breaks}``.
 
 Provides
 --------
-Do not use ``${python:Provides}`` unless you know what you are doing.
+Do not use ``${python:Provides}`` unless you know what you are doing. [#]_
 
-.. todo:: Provide rationale for the above.
+.. [#] `${python:Provides} considered harmful <http://lists.debian.org/20110324164804.GA5919@jwilk.net>`_
 
 Description
 -----------

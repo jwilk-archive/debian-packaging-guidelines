@@ -3,10 +3,15 @@ debian/control
 
 Package name
 ------------
-You should normally use the same name as upstream uses, unless the name is too
-generic.
+For source packagen name, you should normally use the same name as upstream
+uses, unless the name is too generic.
 
-For Python modules, binary package name should follow Python Policy §2.2.
+For binary package name, follow (sub)policies:
+
+- shared libraries: `Policy §8.1 <http://www.debian.org/doc/debian-policy/ch-sharedlibs.html#s-sharedlibs-runtime>`_
+- Python modules: `Python Policy §2.2 <http://www.debian.org/doc/packaging-manuals/python-policy/ch-module_packages.html#s-package_names>`_
+- Perl modules: `Perl Policy §4.2 <http://www.debian.org/doc/packaging-manuals/perl-policy/ch-module_packages.html#s-package_names>`_
+- XUL-based applications: `Mozilla Extensions Policy <http://wiki.debian.org/Mozilla/ExtensionsPolicy>`_
 
 Priority
 --------

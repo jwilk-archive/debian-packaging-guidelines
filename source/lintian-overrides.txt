@@ -1,7 +1,16 @@
 Lintian overrides
 =================
-Check if they make sense.
+Every override should have a comment explaining why it was added.
 
-.. todo:: Explain when to override lintian and when not.
+Add override if the tag is false positive and it's not feasible to fix lintian.
+
+As a temporary measure, you can also add override for false positives that you
+expect to be fixed. In such cases, include lintian bug number in the comment.
+
+You can add override if the tag is true positive, but for a good reason you are
+not going to fix the problem. (“I am to lazy to do it” does not count as a good
+reason.)
+
+.. seealso:: `Lintian User's Manual §2.4 <http://lintian.debian.org/manual/section-2.4.html>`_
 
 .. vim:ft=rst ts=3 sw=3 et

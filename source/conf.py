@@ -19,7 +19,7 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Packaging Guidelines'
+project = u'Debian Packaging Guidelines'
 copyright = u'2012, Jakub Wilk'
 
 # The short X.Y version.

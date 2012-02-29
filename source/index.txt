@@ -1,6 +1,6 @@
-====================
-Packaging Guidelines
-====================
+===========================
+Debian Packaging Guidelines
+===========================
 
 Contents:
 

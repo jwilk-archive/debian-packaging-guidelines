@@ -23,10 +23,12 @@ You must build-depend on all packages you directly use at build time (with the
 exception that packages used only in ``binary-indep`` can go to
 ``Build-Depends-Indep``). Don't forget about the ``clean`` target.
 
-For better backportability, use ``debhelper (>= N)`` instead of ``debhelper (>=
-N.0.0)``.
+For better backportability, in version constraints always use version number
+that are slightly smaller than those that actually existed in the archive. For
+example:
 
-.. todo:: Write more about backportability (e.g. tildes in version numbers).
+- use ``debhelper (>= 8)`` instead of ``debhelper (>= 8.0.0)``;
+- use ``debhelper (>= 7.0.50~)`` instead of ``debhelper (>= 7.0.50)``.
 
 URLs (Vcs-\*, Homepage)
 -----------------------

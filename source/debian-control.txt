@@ -54,6 +54,25 @@ Description
 -----------
 .. seealso:: `Developer's Reference §6.2.{1,2,3} <http://www.debian.org/doc/manuals/developers-reference/best-pkging-practices.html#bpp-desc-basics>`_
 
+\*-Python-Version
+-----------------
+Don't use ``XB-Python-Version`` unless you know what you are doing.
+
+Unless python-support is your helper, use ``X-Python-Version`` instead of
+``XS-Python-Version``.
+
+python-support doesn't support ``X-Python-Version`` yet, so you need to
+use ``XS-Python-Version`` or ``debian/pyversions``.
+
+Do not use ``X(S)-Python-Version: current``.
+
+Do not use ``X(S)-Python-Version: 2.X``. You can use ``X(S)-Python-Version: >=
+2.X, << 2.(Y+1)`` if you must, though normally packages should support (at
+source level) more than one Python version.
+
+Do not use ``X(S)-Python-Version: all``. Just drop the field if your package
+supports “all” versions.
+
 Cosmetics
 ---------
 Preferred capitalization of field names is ``Foo-Bar`` (not: ``Foo-bar``).

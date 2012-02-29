@@ -45,7 +45,7 @@ Do not use ``${python:Provides}`` unless you know what you are doing.
 
 Description
 -----------
-See Developer's Reference §6.2.3.
+.. seealso:: `Developer's Reference §6.2.{1,2,3} <http://www.debian.org/doc/manuals/developers-reference/best-pkging-practices.html#bpp-desc-basics>`_
 
 Cosmetics
 ---------

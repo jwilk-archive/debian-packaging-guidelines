@@ -28,4 +28,6 @@ Existing packages
 -----------------
 .. todo::
 
+.. seealso:: `Developer's Reference §6.3 <http://www.debian.org/doc/manuals/developers-reference/best-pkging-practices.html#bpp-debian-changelog>`_
+
 .. vim:ft=rst ts=3 sw=3 et

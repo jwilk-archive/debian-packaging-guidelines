@@ -100,5 +100,5 @@ html_show_sphinx = False
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 html_show_copyright = True
 
-# Options for extensinos
+# Options for extensions
 todo_include_todos = True
